@@ -8,7 +8,7 @@ public class PlayerCollision : MonoBehaviour
 
     void OnCollisionEnter(Collision collisioninfo)
     {
-        if (collisioninfo.gameObject.tag == "border")
+        if (collisioninfo.gameObject.tag == "border") //anything with the tag "border"
         {
             Debug.Log("HIT");
         }
